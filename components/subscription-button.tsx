@@ -3,6 +3,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 import { Zap } from "lucide-react";
+import { toast } from "react-hot-toast";
 
 interface SubscriptionButtonProps {
   isPro: boolean;
