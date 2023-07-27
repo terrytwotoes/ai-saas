@@ -2,19 +2,6 @@ SaaS AI Platform
 
 ![1](https://github.com/terrytwotoes/ai-saas/assets/62052347/f3adae16-6bc9-4a1d-ae2d-da99a38babd5)
 
-Platform Demo
-Table of Contents
-
-    Introduction
-    Features
-    Technologies Used
-    Installation
-    Configuration
-    Usage
-    Deployment
-    Support
-    Contributing
-    License
 
 Introduction
 
