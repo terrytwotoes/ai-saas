@@ -1,34 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+SaaS AI Platform
 
-## Getting Started
+![1](https://github.com/terrytwotoes/ai-saas/assets/62052347/f3adae16-6bc9-4a1d-ae2d-da99a38babd5)
 
-First, run the development server:
+Platform Demo
+Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+    Introduction
+    Features
+    Technologies Used
+    Installation
+    Configuration
+    Usage
+    Deployment
+    Support
+    Contributing
+    License
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Introduction
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Genie is a SaaS AI platform that [briefly describe what your platform does and its main features]. The platform is built using Next.js, Tailwind CSS, Stripe for payments, Prisma for database management, Crisp for customer support, and Shadcn-UI for UI components.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Features
+   * Authentication: Utilizing Clerk, it supports various login methods such as Email, Google, and 9+ Social Logins.
+   * Client Form Validation: Implemented with react-hook-form, ensuring efficient and accurate form handling on the client-side.
+   * Server Error Handling: Integrated react-toast for seamless error management on the server-side.
+   * AI-Powered Image Generation: Leverages Open AI to generate images with advanced AI capabilities.
+   * Video & Music Generation Tool: Utilizes Replicate AI to create AI-generated videos and music.
+   * Conversation Generation: Employs Open AI to generate realistic and contextually relevant conversations.
+   * Stripe Monthly Subscription: Implements Stripe for easy and secure monthly subscription management.
+   * Free Tier with API Limiting: Offers a free tier for users with API usage limitations.
+   * Handling Relations Between Server and Child Components: Details how to manage relationships and communication between server and child components.
+   * Next 13 App Router Folder Structure: Provides a well-organized folder structure for Next.js 13 App Router.
 
-To learn more about Next.js, take a look at the following resources:
+     ![2](https://github.com/terrytwotoes/ai-saas/assets/62052347/5c2e782f-c51b-42fc-8fcb-40030359928e)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Technologies Used:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    * Next.js: 
+    * Tailwind CSS:
+    * Stripe: 
+    * Prisma: 
+    * Crisp: 
+    * Shadcn-UI: 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Installation
+
+To set up the project locally, follow these steps:
+
+Clone the repository
+
+    git clone https://github.com/terrytwotoes/ai-saas.git
+
+
+Install the dependencies:
+
+     npm install
+
+
+
+Configuration:
+Create a .env file. Fill in the necessary environment variables in the .env file:
+
+    
+    
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+    
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+    
+    OPENAI_API_KEY=
+    REPLICATE_API_TOKEN=
+    
+    DATABASE_URL=
+    
+    STRIPE_API_KEY=
+    STRIPE_WEBHOOK_SECRET=
+    
+    NEXT_PUBLIC_APP_URL="http://localhost:3000"
+    
